@@ -1,0 +1,14 @@
+/*Use of mixins*/
+
+@mixin myMargin($val){
+    margin-left: $value;
+    margin-right: $value;
+}
+
+body{
+    @include myMargin(10px)
+}
+
+div {
+    @include myMargin(15px)
+}
