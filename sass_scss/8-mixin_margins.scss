@@ -6,9 +6,9 @@
 }
 
 body{
-    @include myMargin(10px)
+    @include myMargin(10px);
 }
 
 div {
-    @include myMargin(15px)
+    @include myMargin(15px);
 }
